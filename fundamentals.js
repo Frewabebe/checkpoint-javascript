@@ -13,13 +13,9 @@ var colors = ['green', 'yellow', 'red']
 
 
 // Create a `for` loop that adds each string in `colors` to `favoriteColors`.
- var copy
- for (i = 0; i <= colors.length; i++)
- {
-
- }
-
-
+ var colors = ['green', 'yellow', 'red']
+ var favoriteColors = colors.slice
+ favoriteColors.reverse();
 // Create an object literal called `instructor` that contains three key-value pairs.
  var instructor = {
    name: ProfessorOne,
