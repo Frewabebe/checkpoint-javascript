@@ -13,18 +13,17 @@ var colors = ['green', 'yellow', 'red']
 
 
 // Create a `for` loop that adds each string in `colors` to `favoriteColors`.
- var colors = ['green', 'yellow', 'red']
- var favoriteColors = colors.slice
- favoriteColors.reverse();
+for (i = 0; i < colors.length; i++){
+  favoriteColors.push(colors[i])
+}
+
 // Create an object literal called `instructor` that contains three key-value pairs.
  var instructor = {
    name: ProfessorOne,
    name: ProfessorTwo,
    name: ProfessorThree
  }
- var addProperty = function (facial-hair) {
-  return instructor(facial-hair);
-}
+
 
 // Add a `facial-hair` (spelled exactly) property to `instructor` by accessing
 // it (do not change the original object you typed above) and assigning it
